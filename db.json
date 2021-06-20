@@ -1,0 +1,24 @@
+{
+    "places":{
+            "kutaisi": {
+                "lat": 42.26791,
+                "lng": 42.69459
+            },
+            "tbilisi": {
+                "lat": 41.716667,
+                "lng": 44.783333
+            },
+            "batumi": {
+                "lat": 41.643414,
+                "lng": 41.639900
+            }
+    },
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}
+  
