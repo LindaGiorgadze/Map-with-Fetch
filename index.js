@@ -1,11 +1,10 @@
 
 const ul = document.querySelector('#placeArray');
 
-fetch('http://localhost:3000/places')
+fetch('https://lindagiorgadze.github.io/Map-with-Fetch-Javascript/db.json')
     .then(response => response.json())
     .then(data => {
-        const obj = data;
-
+        const obj = data.places;
         const map = new google.maps.Map(document.getElementById("map"), {
             zoom: 7,
             center: { lat: 42.3207845, lng: 43.3713615},
