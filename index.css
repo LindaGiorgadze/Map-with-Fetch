@@ -5,3 +5,7 @@
 #placeArray {
     height: 100px;
 }
+.liActive{
+    color: rgb(190, 96, 96);
+    transform: scale(1.5);
+}

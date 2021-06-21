@@ -30,6 +30,12 @@ fetch('https://lindagiorgadze.github.io/Map-with-Fetch-Javascript/db.json')
                 map: map,
             });
 
+            li.addEventListener("mouseover", event => {
+                event.target.classList.add('liActive');
+            });
+            li.addEventListener("mouseout", event => {
+                event.target.classList.toggle('liActive')
+            });
             // console.log(key);
             // console.log(obj[key])
         });
